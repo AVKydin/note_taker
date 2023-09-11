@@ -16,6 +16,7 @@ span{
 
 .todo.status span{
   text-decoration: line-through;
+  color: green;
 }
 
 .todo label{
@@ -26,8 +27,12 @@ span{
   cursor: pointer;
   background: rgb(202,211,217);
   padding: 1rem;
+  border-bottom-right-radius: 1.2rem;
+  border-top-left-radius: 1.2rem;
+  border-top-right-radius: 1.2rem;
 }
 
 .todo i{
   z-index: 2;
+  font-size: 1.5rem;
 }
